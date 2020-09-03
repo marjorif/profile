@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+  font-family: 'Open Sans' ;
+  background-color: rgb(243, 243, 243);
+}
+
+h1, h2 {
+  font-family: 'Alata';
+}
+
+h1 {
+  color: #F76C5E;
+}
+
+h2 {
+  color: #F68E5F;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #A8A8A8;
+}
+
+a:hover {
+  color: #324376;
+}
+
+p {
+  color: #787878;
+  margin-top: 15px;
+  margin-bottom: 30px;
+
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: center;
+  width: 530px;
+}
+
+.img-circle {
+  width: 100px;
+  border-radius: 50%;
+}
+.shadow {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.first-cta {
+  background-color: #f5dd90;
+  color: #586ba4;
+  padding: 8px 24px;
+  border-radius: 7px;
+}
+
+.first-cta:hover {
+  background-color: #F1D26A;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: #A8A8A8;
+  margin: 8px 10px
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card {
+    width: 300px;
+  }
+}
